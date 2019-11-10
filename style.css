@@ -1,0 +1,35 @@
+.header{
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    background-color:rgb(129, 225, 230);
+
+}
+
+.row{
+    content: " ";
+    display: flex;
+    grid-template-areas:'sidebar main';
+    clear: both;
+    justify-content;: center;
+    grid-template-columns: 50% 50%;
+}
+
+
+.row1{
+    content: "";
+    display: flex;
+    grid-template-areas:'sidebar main';
+    clear: both;
+    grid-template-columns: 50% 50%;
+}
+
+.main{
+    padding: 30px;
+    background-color: lightgrey;
+}
+
+.result{
+    padding: 20px;
+    background-color: lightgray;
+}

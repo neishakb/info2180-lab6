@@ -1,35 +1,40 @@
 .header{
-    padding: 10px;
+    padding: 30px;
     display: grid;
     justify-content: center;
     background-color:rgb(129, 225, 230);
 
 }
 
-.row{
-    content: " ";
-    display: flex;
-    grid-template-areas:'sidebar main';
-    clear: both;
-    justify-content;: center;
-    grid-template-columns: 50% 50%;
+.all_sections{
+  background-color: lightgray;
 }
 
-
-.row1{
-    content: "";
-    display: flex;
-    grid-template-areas:'sidebar main';
-    clear: both;
-    grid-template-columns: 50% 50%;
+h4{
+  padding-left:60px;
+  font: san serif;
 }
 
-.main{
-    padding: 30px;
-    background-color: lightgrey;
+.flex_container{
+  padding-left:60px;
+  padding-right: 60px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  width: 100%;
+}
+
+.search{
+  padding: 14px 40px;
+  color: white;
+  border-radius: 12px;
+  background-color: red;
 }
 
 .result{
-    padding: 20px;
-    background-color: lightgray;
+  display: flex;
+  flex-direction: column;
 }

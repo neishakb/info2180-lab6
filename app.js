@@ -4,7 +4,7 @@ window.onload = ()=>{
     let result = document.getElementById("result");
     
     
-    search.addEventListener("click",()=>{
+    search.addEventListener("click", function(){
         let httpRequest = new XMLHttpRequest();
         let url = `https://826691f0c8ce41baba35ed997d001c28.vfs.cloud9.us-east-1.amazonaws.com/superheroes.php?q=${box.value}`;
        

@@ -68,7 +68,8 @@ $name = filter_var($search, FILTER_SANITIZE_STRING);
 
 $result = "";
 if (!empty($search)){
-  
+  //put result thingy here
+  echo "RESULT";
   foreach($superheroes as $a){
     if ($a["name"] == $search || $a["alias"] == $search){
       $result = $a;

@@ -53,7 +53,7 @@ h4 {
     flex-direction: row;
   }
 
-.search {
+#search {
     padding: 14px 40px;
     color: white;
     border: red;

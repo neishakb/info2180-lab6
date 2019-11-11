@@ -69,7 +69,8 @@ $name = filter_var($search, FILTER_SANITIZE_STRING);
 $result = "";
 if (!empty($search)){
   //put result thingy here
-  echo "RESULT";
+  echo "<h3>RESULT</h3>";
+  echo "<hr>";
   foreach($superheroes as $a){
     if ($a["name"] == $search || $a["alias"] == $search){
       $result = $a;
@@ -78,7 +79,7 @@ if (!empty($search)){
   }
   
   if ($result === ""){
-    echo "Superhero not found";
+    echo "<h4 style='color:maroon;'>Superhero not found</h4>";
   }
   
   else{
